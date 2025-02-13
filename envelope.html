@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Virtual Valentine's Day Card</title>
+
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./envelope.css">
+    </head>
+    <body>
+        <h1 class="valentine">Hi, please check out my Valentine's e-letter for you!</h1>
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">Hello Kat,</p>
+                    <p class="words line2">I love you very much</p>
+                    <p class="words line3">Love,</p>
+                    <p class="words line4">Remy</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Close</button>
+        </div>
+        
+        <!-- Script JS -->
+        <script src="./envelope.js"></script>
+    </body>
+</html>
